@@ -4,8 +4,12 @@ $(document).ready(function(){
         
         $('.lista').append('<div class="item">'+Agregar +'</div>');
             
-    
     });    
+
+    $(document).on('click', '.item', function(){
+       $(this).remove();
+        
+    });
     
     
 
